@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # Script: sync_bandcamp.sh
-# Desc: Descarga tu colección de Jean desde Bandcamp usando bandcampsync en un venv.
+# Desc: Descarga tu desde Bandcamp usando bandcampsync en un venv.
 # Ubicación: /home/jfuser/scripts/bandcampsync
 # Cookies Netscape en bandcamp_cookies.txt
-# Destino: /HDD4TB3/home/jfuser/Musica/Jean
+# Destino: /HDD4TB3/home/jfuser/Musica/
 
 set -euo pipefail
 
 # Variables
 SCRIPT_DIR="/home/jfuser/scripts/bandcampsync"
 COOKIES_FILE="$SCRIPT_DIR/bandcamp_cookies.txt"
-OUTPUT_DIR="/HDD4TB3/home/jfuser/Musica/Jean"
+OUTPUT_DIR="/HDD4TB3/home/jfuser/Musica/"
 VENV_DIR="$SCRIPT_DIR/venv"
 
 # Verificar cookie-file
